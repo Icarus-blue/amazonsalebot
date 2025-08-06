@@ -155,7 +155,7 @@ ${comments.slice(0,10).join('\n')}
             max_tokens: 600,
             temperature: 0.7
         });
-        const aiSuggestions = gptRes.data.choices[0].message.content.trim();
+        const aiSuggestions = gptRes.choices[0].message.content.trim();
 
         res.json({
             metadata: {
@@ -202,8 +202,8 @@ You are VPREME, a helpful, friendly, witty AI shopping assistant for Telegram. G
             max_tokens: 300,
             temperature: 0.8
         });
-        console.log('==========>',gptRes.data.choices[0].message.content.trim())
-        res.json({ reply: gptRes.data.choices[0].message.content.trim() });
+        console.log('==========>', gptRes.choices[0].message.content.trim());
+        res.json({ reply: gptRes.choices[0].message.content.trim() });
     } catch (e) {
         res.status(500).json({ error: "OpenAI error.", details: ''+e });
     }
