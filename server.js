@@ -202,6 +202,7 @@ You are VPREME, a helpful, friendly, witty AI shopping assistant for Telegram. G
             max_tokens: 300,
             temperature: 0.8
         });
+        console.log('==========>',gptRes.data.choices[0].message.content.trim())
         res.json({ reply: gptRes.data.choices[0].message.content.trim() });
     } catch (e) {
         res.status(500).json({ error: "OpenAI error.", details: ''+e });
