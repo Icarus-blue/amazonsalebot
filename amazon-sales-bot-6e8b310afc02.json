@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "amazon-sales-bot",
+  "private_key_id": "6e8b310afc023bb030848b5fbff044ccc83daa30",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8fc9fcYxjms/K\nSzP1F3gyBKEVcKQjKQ1+ToTkKLwzHr7KHFZ0mMUdqgOwpDx6bgJ4PWWwa5gWalG8\nYOK5iT5cfCssmqVbnlCZDr2IEmic3oXqbCjyLDdW8EcPDTuidND59HSdEKZyzojK\nD/KY5eM1jpRHLArnh4VPSJ7Vc/GcsSGg1l/0XjWk1QAdAmkt79kz+e0Q1eKubM0o\nHkAn0H11cqslA63nvo16e8/l5kgyN17ihZ12PL6teG4b4z6tjMawKziTlOFETrXa\n1y2NvAREBUY9X3bEjRG+GYs9PgLZMkCht8Q7/sTNYz/nydom0OiEGdcBXuC395NM\ngI/8DAVhAgMBAAECggEAJ+xZ1PRe8OXkZwuAqMPc0HNMjxb5nPzf/8WvvgemvQkh\nDfvsj+ufrIXLHEndCW1tlnwiorhXUUAZqdW3j+ayz7H5Dwx+Q6aHmbOWj1Ce2cME\nCD/6eDjHS+G+m0CJRgKKFLcjT/Ur3BtEu8+e6aWfd0OIwn5gnOOGZ+GQytMw9Kft\n9PqQXVsf/qHccV3VYh+BaQCATP9VM2WOUSVpG3ot6wgY4eqrc5XRK/S0OJUNGoI6\nOhpFRz0UVe0fqz3yYgvBw399skHTxAIUDCP1l0XNK3VBXLhc/7TqTucmfmzkCFZL\njI6SFoPSHQs+xXuMezsQ15Nnp8wav45KsRJfkAuMpQKBgQD7vhxGMGJJVjIOkOdt\niUu5n1EuYDGPzZGDZtZNKZitJ/+3u0dyGz7NMyUtm+zKj9SDUIiGrZBY6XzsyCcO\nPSXxQWKycrLoYcaDPLFhlEh9az65v2f3eUogICAAf5Q+6mpscaQWD306CPxX5LNJ\nSPdSJIdgVYAm476VyVJWfeJYjwKBgQC/rdx4mSbQVZxEF3OfQ/xz9s/IMncZYTPH\nxyaZu8huqgesK2O4qwoXsz9kpiBpAVvau/kUeBwvalyq6HsTZG4REi3Oci+YnkLH\nezxkzY0LADKgATCn2QMPDfxkqjxyyBnFWCZxYsiueW08R99ntQIaqvXdPqPBV2J/\n7k/L79JbDwKBgCKUKHoTp0x/hHyvtro7A6XJlnMST3x7NiOgeos6zXfraJqqJNQt\nneC9x7uOEWZ5fy1SYI5vRMaRu9EiZQr1p0KOQqpUSvLUi1n3ej33CkX/9yu4eOVr\nSZ1EDGFFJO3HcTrYGTvWgNL57P99sIq+dQpZbibzV5j/62vTrXWn8PFNAoGAEW81\n834yqpZu3T6o1J6xcrbLVXFJpfRSamRx3V/YLkCm7AESU/SyuU8jf/sgTYzDFxUr\n5bG7FpD9FsqIj03+OO1HX1TBgYc7mbta1exgXNTKxgT1sP6rKY5jG6DkWKhct7d5\n36xVhpEi323GIz+yjkxoipQs/uP84JgDiBArOP8CgYBNvtDEp+EI4X3QFChcHqOz\nbRqTtuIZzFqyIjgS7Ak5X6AkJh4f/xS6SigaI0cEtZMm+iVNLMRo8TMzAZg0rIA9\nJoq1lYabbIzHKT1hDBUIAymIcdSD3lZW/Bhq4nyyxOxPflxJt3S6uKAf6c2wICdf\nsq91nLvf3/zNA2iMHYHnlQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "salesbot@amazon-sales-bot.iam.gserviceaccount.com",
+  "client_id": "112569248986782591893",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/salesbot%40amazon-sales-bot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

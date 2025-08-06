@@ -149,7 +149,7 @@ Sample Comments:
 ${comments.slice(0,10).join('\n')}
         `.trim();
 
-        const gptRes = await openai.createChatCompletion({
+        const gptRes = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
             messages: [{ role: 'system', content: prompt }],
             max_tokens: 600,
@@ -196,7 +196,7 @@ You are VPREME, a helpful, friendly, witty AI shopping assistant for Telegram. G
         const messages = [{ role: 'system', content: systemPrompt }];
         if (chatHistory) messages.push(...chatHistory);
         messages.push({ role: 'user', content: userMessage });
-        const gptRes = await openai.createChatCompletion({
+        const gptRes = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
             messages,
             max_tokens: 300,
