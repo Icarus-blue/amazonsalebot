@@ -1,0 +1,9 @@
+# node modules
+node_modules/
+
+# environment files
+.env
+.env.*   # ignores .env.development, .env.production, etc.
+
+amazon-sales-bot-6e8b310afc02.json
+
